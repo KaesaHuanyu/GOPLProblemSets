@@ -11,12 +11,15 @@ import (
 
 func main() {
 	start := time.Now() //程序开始时间
-	ch := make(chan string)
+	ch1 := make(chan string)
+	ch2 := make(chan string)
 	for _, url := range os.Args[1:] {
-		go fetch(url, ch) // 开始一个goroutine
+		go fetch(url, ch1) // 开始一个goroutine
+		go fetch(url, ch2)
 	}
 	for range os.Args[1:] {
-		fmt.Println(<-ch)
+		fmt.Println(<-ch1)
+		fmt.Println(<-ch2)
 	}
 	fmt.Printf("%.2fs elapsed\n", time.Since(start).Seconds())
 }

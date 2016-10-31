@@ -1,15 +1,15 @@
-//利萨茹曲线
-//完全不懂
-package 00
+package main
 
 import (
 	"image"
 	"image/color"
 	"image/gif"
 	"io"
+	"log"
 	"math"
 	"math/rand"
-	"os"
+	"net/http"
+	"strconv"
 )
 
 var palette = []color.Color{color.White, color.Black} //调色板 切片
@@ -19,10 +19,14 @@ const (
 )
 
 func main() {
-	lissajous(os.Stdout)
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		lissajous(w) //都实现了io.Writer接口
+	})
+	log.Fatal(http.ListenAndServe("localhost:8000", nil))
 }
+
 func lissajous(out io.Writer) {
-	const (
+	var (
 		cycles  = 5
 		res     = 0.001
 		size    = 100 // image canvas covers [-size, +size]
