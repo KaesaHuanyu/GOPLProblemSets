@@ -5,7 +5,7 @@
 
 [英文原版go语言圣经](http://www.gopl.io/)
 
-[中文在线版本](https://github.com/golang-china/gopl-zh)
+[中文在线版本](http://shinley.com/)
 
 [中文离线版本](http://github.com/golang-china/gopl-zh/archive/gh-pages.zip)
 
@@ -33,7 +33,7 @@
 
 ![poem](https://cl.ly/3h1r332d0f3h/三行情诗.jpeg)
 
-## 关于我
+### 关于我
 
 ### Gmail
 
