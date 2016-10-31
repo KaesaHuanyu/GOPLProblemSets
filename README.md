@@ -32,3 +32,21 @@
 >“螃蟹在剥我的壳，笔记本在写我，漫天的我落在枫叶上、雪花上，而你在想我”
 
 ![poem](https://cl.ly/3h1r332d0f3h/三行情诗.jpeg)
+
+## 关于我
+
+### Gmail
+
+kaesalai@gmail.com
+
+### Weibo
+
+[@有个魔王卡尔萨](http://weibo.com/u/2193276152?refer_flag=1005055010_)
+
+### Blog
+
+[kaesalai.cn](http://www.kaesalai.cn)
+
+### Curriculum Vitae
+
+嘻嘻...
