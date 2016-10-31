@@ -7,7 +7,7 @@
 
 [中文在线版本](https://github.com/golang-china/gopl-zh)
 
-[中文离线版本](http://shinley.com/)
+[中文离线版本](http://github.com/golang-china/gopl-zh/archive/gh-pages.zip)
 
 ***
 
