@@ -1,6 +1,6 @@
 //利萨茹曲线
 //完全不懂
-package 00
+package main
 
 import (
 	"image"
