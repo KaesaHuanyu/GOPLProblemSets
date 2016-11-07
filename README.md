@@ -29,12 +29,6 @@
 
 ## 杂项
 
->“旧忆就像一扇窗，推开了就再难合上”
-
-![poem](https://cl.ly/3h1r332d0f3h/三行情诗.jpeg)
-
-### 关于我
-
 ### Gmail
 
 kaesalai@gmail.com
